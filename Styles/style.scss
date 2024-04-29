@@ -53,7 +53,6 @@ header {
 
         ul{
             gap: 10px;
-
             width: 45%;
             height: 100%;
             display: flex;
@@ -73,6 +72,9 @@ header {
                 &:hover{
                     background-color: #dadada;
                     box-shadow: 1px 1px 4px;
+                }
+                &:active{
+                    background-color: #aaaaaa;
                 }
                 a{
                     color: #000;
@@ -97,7 +99,7 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(66, 66, 66, 0.6);
         width: 95%;
         height: 10%;
         border-radius: 20px;
@@ -137,7 +139,7 @@ main {
         width: 95%;
         height: 85%;
         margin-top: 1%;
-        background-color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(66, 66, 66, 0.6);
         border-radius: 20px; 
     }
 }
