@@ -40,6 +40,7 @@ header .container-img img {
   width: 20vh;
   margin-top: 5px;
   margin-left: 40px;
+  filter: drop-shadow(1px 1px 2px);
 }
 header nav {
   width: 40%;
@@ -96,7 +97,7 @@ main span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(66, 66, 66, 0.6);
+  background-color: rgba(190, 190, 190, 0.6);
   width: 95%;
   height: 10%;
   border-radius: 20px;
@@ -135,6 +136,6 @@ main .container-info {
   width: 95%;
   height: 85%;
   margin-top: 1%;
-  background-color: rgba(66, 66, 66, 0.6);
+  background-color: rgba(190, 190, 190, 0.6);
   border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */

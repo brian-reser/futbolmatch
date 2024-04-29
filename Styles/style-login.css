@@ -13,7 +13,7 @@ body {
     justify-content: center;
     background-color: black;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/img/fondo.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/imgs/fondo.jpg");
     background-size: cover;
     background-position: center;
 }
