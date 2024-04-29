@@ -19,19 +19,19 @@ body {
 }
 
 .login__container{
-    border: 1px solid #3c3c3c;
-    backdrop-filter: blur(9px);
+    border: 1px solid white;
+    backdrop-filter: blur(8px);
     box-sizing: border-box;
     min-width: 50%;
     color: white;
     align-items: center;
     justify-content: center;
-    padding-top: 1em;
+    padding: 1em;
     border-radius: 10px;
 }
 
 .login__container h1{
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
 }
 
