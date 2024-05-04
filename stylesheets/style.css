@@ -45,8 +45,10 @@ header nav {
   position: relative;
   align-items: center;
   left: 47%;
+  
 }
-header nav ul {
+.options-nav {
+  padding-right: 1vh;
   gap: 10px;
   width: auto;
   height: 100%;
@@ -55,7 +57,7 @@ header nav ul {
   left: 90%;
   list-style: none;
 }
-header nav ul li {
+.options-nav li {
   text-align: center;
   background-color: #ffffff;
   border-radius: 20px;
@@ -67,15 +69,15 @@ header nav ul li {
   transition: 0.3s ease;
   cursor: pointer;
 }
-header nav ul li:hover {
+.options-nav li:hover {
   background-color: #dadada;
   box-shadow: 1px 1px 4px;
 }
-header nav ul li:active {
+.options-nav li:active {
   background-color: #aaaaaa;
   box-shadow: none;
 }
-header nav ul li a {
+.options-nav li a {
   color: #000;
   text-decoration: none;
   font-size: 0.8rem;
@@ -90,7 +92,7 @@ main {
   flex-direction: column;
   align-items: center;
 }
-main span {
+.containes-options {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,7 +101,7 @@ main span {
   height: 10%;
   border-radius: 20px;
 }
-main span .container-btns {
+.container-btns {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
   width: auto;
@@ -109,7 +111,7 @@ main span .container-btns {
   transition: transform 0.3s;
   border-radius: 20px;
 }
-main span .container-btns #btn-al {
+#btn-al {
   font-family: "Montserrat", sans-serif;
   width: 30vh;
   height: 7vh;
@@ -119,18 +121,18 @@ main span .container-btns #btn-al {
   transition: transform 0.3s ease-out;
   border: none;
 }
-main span .container-btns #btn-al:hover {
+#btn-al:hover {
   transform: scale(1.1, 1.1);
   box-shadow: 1px 1px 4px;
 }
-main span .container-btns #btn-al:active {
+#btn-al:active {
   background-color: #bec0ad;
 }
-main span .container-btns:has(#btn-al:hover) #btn-al:not(:hover) {
+.container-btns:has(#btn-al:hover) #btn-al:not(:hover) {
   filter: blur(2px);
   transform: scale(0.9, 0.9);
 }
-main .container-info {
+.container-info {
   width: 95%;
   height: 85%;
   margin-top: 1%;
