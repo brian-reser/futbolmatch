@@ -13,7 +13,7 @@ body {
     justify-content: center;
     background-color: black;
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/imgs/fondo.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/imgs/background-img.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -27,7 +27,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1em;
-    border-radius: 10px;
+    border-radius:20px;
+    
 }
 
 .login__container h1{
@@ -39,7 +40,14 @@ body {
     position: relative;
     height: 3em;
     width: 100%;
-    margin: 2em 0;
+    margin: 1em 0;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    flex-direction: column;
 }
 
 .input__box input{
@@ -67,7 +75,8 @@ body {
 }
 
 .login__container .login__button{
-    width: 100%;
+    justify-self: center;
+    width: 30%;
     height: 3em;
     background: white;
     border: none;
@@ -85,6 +94,7 @@ body {
     font-size: 0.9em;
     margin: -1em 0 1em;
     text-decoration: underline;
+    justify-self: center;
 }
 
 .forgot__password a{
