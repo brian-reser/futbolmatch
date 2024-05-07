@@ -86,6 +86,12 @@ form{
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
     font-weight: bold;
+    &:hover{
+        background-color: #cccccc;
+    }
+    &:active{
+        background-color: #7f7f7f;
+    }
 }
 
 .login__container .forgot__password{
