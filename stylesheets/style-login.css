@@ -13,13 +13,13 @@ body {
     justify-content: center;
     background-color: black;
     min-height: 100vh;
-    background-image: url("../imgs/background-img.jpg");
+    background-image: url("https://images.unsplash.com/photo-1459865264687-595d652de67e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
     background-position: center;
 }
 
 .login__container{
-    border: 1px solid white;
+    border: 1px solid white;    
     backdrop-filter: blur(8px);
     box-sizing: border-box;
     min-width: 50%;
