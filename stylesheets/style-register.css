@@ -15,15 +15,56 @@ body {
     align-items: center;
 }
 
+main{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  background-color: rgb(255, 255, 255, 0.7);
+  overflow: hidden;
+  border-radius: 20px;
+}
+.container-logo{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 form{
-  width: 40%;
-  height: 70%;
+  width: 50%;
+  height: 100%;
   margin: 0 auto;
   background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
+form p {
+  
+  position: absolute;
+  font-size: 2rem;
+  padding-top: 2rem;
+  top: 80px;
+  left: 53%;
+}
+input:focus + label{
+  top: -18px;
+  font-size: 14px;
+  background: none;
+}
+
+.btn-register{
+  width: 15vh;
+  height: 5vh;
+  border-radius: 20px;
+  justify-self: end;
+  border: 1px solid #96ae08;
+}
+.btn-register:hover{
+  background-color: #dbdbdb;
+}
+.btn-register:active{
+  background-color: #a5a5a5;
+}
