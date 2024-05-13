@@ -33,21 +33,16 @@ main{
 form{
   width: 50%;
   height: 100%;
-  margin: 0 auto;
   background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-form p {
+  overflow-y: auto;
   
-  position: absolute;
-  font-size: 2rem;
-  padding-top: 2rem;
-  top: 80px;
-  left: 53%;
+}
+form .form-floating{
+  width: 50%;
 }
 input:focus + label{
   top: -18px;
@@ -56,11 +51,13 @@ input:focus + label{
 }
 
 .btn-register{
-  width: 15vh;
-  height: 5vh;
+  width: 150px;
+  height: 50px;
   border-radius: 20px;
   justify-self: end;
   border: 1px solid #96ae08;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 .btn-register:hover{
   background-color: #dbdbdb;
